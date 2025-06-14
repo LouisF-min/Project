@@ -54,7 +54,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>🏪Login Sepatu</h2>
+        <h2>🏪Login Sepatu Store</h2>
         <form method="post" action="/login">
             <?= csrf_field() ?>
             <label>Username:</label>
