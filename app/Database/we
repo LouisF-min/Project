@@ -1,0 +1,36 @@
+   protected $ParkiranModel;
+
+    public function __construct()
+    {
+        $this->ParkiranModel = new ParkiranModel();
+    }
+
+    public function index()
+    {
+        $data['kendaraan'] = $this->ParkiranModel->findAll();
+        return view('parkir_view', $data);
+    }
+
+    public function masuk()
+    {
+        $plat = $this->request->getPost('plat_nomor');
+        $jenis = $this->request->getPost('jenis_kendaraan');
+        $warna = $this->request->getPost('warna');
+        $pemilik = $this->request->getPost('pemilik') ? 'Karyawan' : 'Tamu';
+
+        $this->parkirModel->save([
+            'plat_nomor' => $plat,
+            'jenis_kendaraan' => $jenis,
+            'warna' => ucfirst($warna),
+            'pemilik' => $pemilik
+        ]);
+
+        return redirect()->to('/');
+    }
+
+    public function keluar($id)
+    {
+        $this->ParkiranModel->delete($id);
+        return redirect()->to('/');
+    }
+}
