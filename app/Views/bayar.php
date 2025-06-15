@@ -114,7 +114,7 @@
 </head>
 <body>
     <div class="header">
-        <h2>💰 Halaman Pembayaran</h2>
+        <h2>Halaman Pembayaran</h2>
     </div>
 
     <div class="navigation">

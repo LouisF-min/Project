@@ -102,14 +102,14 @@
 </head>
 <body>
     <div class="header">
-        <h2>🏪 Daftar Produk Septa Store</h2>
+        <h2>Daftar Produk Sepatu Store</h2>
         <p>Selamat datang! Pilih produk yang ingin Anda beli</p>
     </div>
 
     <div class="navigation">
-        <a href="/keranjang" class="nav-link">🛒 Lihat Keranjang</a>
-        <a href="/transaksi" class="nav-link">📋 Riwayat Transaksi</a>
-        <a href="/logout" class="nav-link logout-link">🚪 Logout</a>
+        <a href="/keranjang" class="nav-link">Lihat Keranjang</a>
+        <a href="/transaksi" class="nav-link">Riwayat Transaksi</a>
+        <a href="/logout" class="nav-link logout-link">Logout</a>
     </div>
 
     <?php if (session()->getFlashdata('success')): ?>
