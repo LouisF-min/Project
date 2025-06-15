@@ -127,7 +127,7 @@
     <div class="navigation">
         <a href="/produk" class="nav-link">← Kembali ke Produk</a>
         <a href="/keranjang" class="nav-link">Lihat Keranjang</a>
-        <a href="/logout" class="nav-link logout-link">🚪 Logout</a>
+        <a href="/logout" class="nav-link logout-link">Logout</a>
     </div>
 
     <?php if (session()->getFlashdata('success')): ?>
