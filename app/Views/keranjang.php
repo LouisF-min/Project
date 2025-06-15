@@ -29,14 +29,14 @@
         }
         .nav-link {
             padding: 10px 20px;
-            background:rgb(50, 138, 215);
+            background:#007bff;
             color: white;
             text-decoration: none;
             border-radius: 5px;
             transition: background 0.3s;
         }
         .nav-link:hover {
-            background: #545b62;
+            background: #0056b3;
         }
         .logout-link {
             background: #dc3545;
