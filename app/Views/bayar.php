@@ -29,14 +29,14 @@
         }
         .nav-link {
             padding: 10px 20px;
-            background: #6c757d;
+            background:#007bff;
             color: white;
             text-decoration: none;
             border-radius: 5px;
             transition: background 0.3s;
         }
         .nav-link:hover {
-            background: #545b62;
+            background: #0056b3;
         }
         .logout-link {
             background: #dc3545;
@@ -98,7 +98,7 @@
         .btn-process-payment {
             width: 100%;
             padding: 15px;
-            background: #007bff;
+            background:rgb(35, 155, 61);
             color: white;
             border: none;
             border-radius: 5px;
@@ -108,7 +108,7 @@
             transition: background 0.3s;
         }
         .btn-process-payment:hover {
-            background: #0056b3;
+            background: #218838;
         }
     </style>
 </head>
