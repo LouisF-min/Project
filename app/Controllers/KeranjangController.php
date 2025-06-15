@@ -25,7 +25,6 @@ class KeranjangController extends BaseController
             'produk_id' => $produk_id,
             'jumlah'    => 1
         ]);
-
         return redirect()->to('/produk')->with('success', 'Produk berhasil ditambahkan ke keranjang!');
     }
 }
