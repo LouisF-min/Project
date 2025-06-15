@@ -78,7 +78,7 @@
         }
         .btn-pay {
             display: inline-block;
-            background: #dc3545;
+            background: #28a745;
             color: white;
             padding: 15px 30px;
             text-decoration: none;
@@ -89,7 +89,7 @@
             transition: background 0.3s;
         }
         .btn-pay:hover {
-            background: #c82333;
+            background: #218838;
         }
         .btn-shop {
             display: inline-block;
