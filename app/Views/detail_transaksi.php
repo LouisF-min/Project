@@ -29,14 +29,14 @@
         }
         .nav-link {
             padding: 10px 20px;
-            background: #6c757d;
+            background: #007bff;
             color: white;
             text-decoration: none;
             border-radius: 5px;
             transition: background 0.3s;
         }
         .nav-link:hover {
-            background: #545b62;
+            background:rgb(1, 95, 196);
         }
         .logout-link {
             background: #dc3545;
@@ -98,14 +98,14 @@
 </head>
 <body>
     <div class="header">
-        <h2>📄 Detail Transaksi #<?= $transaksi['id']; ?></h2>
+        <h2>Detail Transaksi #<?= $transaksi['id']; ?></h2>
     </div>
 
     <div class="navigation">
-        <a href="/transaksi" class="nav-link">← Kembali ke Riwayat Transaksi</a>
+        <a href="/transaksi" class="nav-link">Kembali ke Riwayat Transaksi</a>
         <a href="/produk" class="nav-link">Lihat Produk</a>
-        <a href="/keranjang" class="nav-link">🛒 Lihat Keranjang</a>
-        <a href="/logout" class="nav-link logout-link">🚪 Logout</a>
+        <a href="/keranjang" class="nav-link">Lihat Keranjang</a>
+        <a href="/logout" class="nav-link logout-link">Logout</a>
     </div>
 
     <div class="detail-container">
