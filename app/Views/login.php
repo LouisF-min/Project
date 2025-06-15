@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login - Septa Store</title>
+    <title>Login - Sepatu Store</title>
     <style>
         body { 
             font-family: Arial, sans-serif; 
@@ -54,7 +54,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>🏪Login Sepatu Store</h2>
+        <h2>Login Sepatu Store</h2>
         <form method="post" action="/login">
             <?= csrf_field() ?>
             <label>Username:</label>
