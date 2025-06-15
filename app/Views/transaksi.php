@@ -29,14 +29,14 @@
         }
         .nav-link {
             padding: 10px 20px;
-            background: #6c757d;
+            background: #007bff;
             color: white;
             text-decoration: none;
             border-radius: 5px;
             transition: background 0.3s;
         }
         .nav-link:hover {
-            background: #545b62;
+            background:rgb(1, 89, 184);
         }
         .logout-link {
             background: #dc3545;
@@ -121,12 +121,12 @@
 </head>
 <body>
     <div class="header">
-        <h2>📋 Riwayat Transaksi</h2>
+        <h2>Riwayat Transaksi</h2>
     </div>
 
     <div class="navigation">
         <a href="/produk" class="nav-link">← Kembali ke Produk</a>
-        <a href="/keranjang" class="nav-link">🛒 Lihat Keranjang</a>
+        <a href="/keranjang" class="nav-link">Lihat Keranjang</a>
         <a href="/logout" class="nav-link logout-link">🚪 Logout</a>
     </div>
 
@@ -144,12 +144,12 @@
     <div class="transaction-container">
         <?php if (empty($transaksi)): ?>
             <div class="empty-transaction">
-                <h3>📄 Belum ada transaksi.</h3>
+                <h3>Belum ada transaksi.</h3>
                 <p>Kamu belum pernah melakukan transaksi. Yuk mulai berbelanja!</p>
                 <a href="/produk" class="btn-shop">Mulai Belanja</a>
             </div>
         <?php else: ?>
-            <h3>📝 Daftar Transaksi Anda:</h3>
+            <h3>Daftar Transaksi Anda:</h3>
             <ul class="transaction-list">
                 <?php foreach ($transaksi as $t): ?>
                 <li class="transaction-item">
