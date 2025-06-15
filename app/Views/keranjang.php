@@ -29,7 +29,7 @@
         }
         .nav-link {
             padding: 10px 20px;
-            background: #6c757d;
+            background:rgb(50, 138, 215);
             color: white;
             text-decoration: none;
             border-radius: 5px;
@@ -107,13 +107,13 @@
 </head>
 <body>
     <div class="header">
-        <h2>🛒 Keranjang Belanja</h2>
+        <h2>Keranjang Belanja</h2>
     </div>
 
     <div class="navigation">
         <a href="/produk" class="nav-link">← Kembali ke Produk</a>
-        <a href="/transaksi" class="nav-link">📋 Riwayat Transaksi</a>
-        <a href="/logout" class="nav-link logout-link">🚪 Logout</a>
+        <a href="/transaksi" class="nav-link">Riwayat Transaksi</a>
+        <a href="/logout" class="nav-link logout-link">Logout</a>
     </div>
 
     <div class="cart-container">
@@ -134,7 +134,7 @@
             </div>
             <?php endforeach; ?>
             
-            <a href="/bayar" class="btn-pay">💳 Bayar Sekarang</a>
+            <a href="/bayar" class="btn-pay">Bayar Sekarang</a>
         <?php endif; ?>
     </div>
 </body>
