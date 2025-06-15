@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Daftar Akun - Septa Store</title>
+    <title>Daftar Akun - Sepatu Store</title>
     <style>
         body { 
             font-family: Arial, sans-serif; 
