@@ -114,14 +114,14 @@
 </head>
 <body>
     <div class="header">
-        <h2>Halaman Pembayaran</h2>
+        <h2>Pembayaran</h2>
     </div>
 
     <div class="navigation">
         <a href="/keranjang" class="nav-link">← Kembali ke Keranjang</a>
         <a href="/produk" class="nav-link">Lihat Produk</a>
-        <a href="/transaksi" class="nav-link">📋 Riwayat Transaksi</a>
-        <a href="/logout" class="nav-link logout-link">🚪 Logout</a>
+        <a href="/transaksi" class="nav-link">Riwayat Transaksi</a>
+        <a href="/logout" class="nav-link logout-link">Logout</a>
     </div>
 
     <div class="payment-container">
